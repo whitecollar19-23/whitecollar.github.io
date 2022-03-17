@@ -1,0 +1,153 @@
+.tab{
+    display: none;
+}
+.phone{
+    display: none;
+}
+.explore
+{
+width: 15.625rem;/**250px(Actual:270px);**/
+height: 15.625rem;
+text-align: center;
+background-color: white;
+color: black;
+border-radius:100%;
+position: absolute;
+bottom:14.5%;
+right:11.4%;
+cursor: pointer;
+
+}
+.explore h4{
+    position: relative;
+    top: 40%;  /*100px*/
+    letter-spacing: 2;
+}
+
+.question{
+    position: absolute;
+    bottom: 14.5%;
+left: 11.4%;
+    width: 32%;
+}
+
+@media(max-width:992px ) and (min-width:576px)
+{
+    .navbar hr
+    {
+        display:none;
+    }
+    .tab{
+       display:inline-block;
+    }
+    .desktop{
+        display: none;
+    }
+    .container-fluid
+    {
+      padding:0 20%;
+    }
+    .explore,.question{
+        margin: auto;
+        position: static;
+        text-align: center;
+        padding:20% 0;
+    }
+    .question{
+        width:100%;
+    }
+    h1{
+        
+font-size: 150px;
+line-height: 150px;
+        }
+
+        h5{
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 3.375px;  
+        }
+        
+        .subheading2{
+font-size: 16px;
+line-height: 28px;
+        }
+        .explore
+{
+    height: 242px;
+    width: 242px;
+    
+
+}
+.explore h4{
+    position: relative;
+    top: 40%;  /*100px*/
+    letter-spacing: 2;
+}
+}
+
+
+@media(max-width:575px) 
+{
+    .navbar hr
+    {
+        display:none;
+    }
+    .explore,.question{
+        margin: auto;
+        position: static;
+        text-align: center;
+        padding:20% 0;
+    }
+    .question{
+        width:100%;
+    }
+    .container-fluid
+    {
+      padding:0 20%;
+    }
+    .desktop{
+        display: none;
+    }
+.tab{
+    display:none;
+}
+.phone{
+    display: inline-block;
+}
+h1{
+    
+font-size: 80px;
+
+line-height: 100px;
+
+    }
+    h5{
+     
+        font-size: 16px;
+      
+        line-height: 19px;
+        letter-spacing: 2.700000047683716px;
+       
+    }
+    
+    .subheading2{
+     
+font-size: 15px;
+
+line-height: 25px;
+
+
+    }
+    .explore{
+        height: 150px;
+        width: 150px;
+    }
+.explore h4{
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.25px;
+    
+}
+
+}

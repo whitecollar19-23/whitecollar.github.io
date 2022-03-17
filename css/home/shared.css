@@ -1,0 +1,115 @@
+/* Background Image */
+.background-img 
+{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+}
+
+/*Body Section*/
+body
+{
+    background-color: black;
+    font-family: 'Bellefair', serif;
+    color:white;
+    overflow: hidden;
+}
+/* Navbar Section */
+.navbar{
+    padding-top: 40px;
+    font-family: 'Barlow Condensed', sans-serif;
+    position: relative;
+}
+.list-style{
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    background-color: rgba(255, 255, 255, 0.062);
+}
+.navbar-nav
+{
+    
+    padding: 0 24.6% 0 8.54%;
+
+}
+.nav-link
+{
+    color: white;
+    line-height: 19.7px;
+    letter-spacing: 2.7px; 
+    padding: 30px 0 29px 0;
+}
+.nav-link:hover
+{
+    color: white;
+    border-bottom: 2px solid white;
+}
+.nav-item
+{
+    white-space: nowrap;
+    padding-right: 10% ;
+}
+.navbar-brand{
+margin-left:4%;
+}
+.brand-image{
+    width: 3rem;
+    height: 3rem;
+}
+.active
+{
+    border-bottom: 2px solid white;
+}
+
+.nowrap {
+    white-space: nowrap ;
+}
+
+hr{
+    position: relative;
+    left: 20px;
+    width:30%;
+    border-style: inset none none none ;
+    border-width: 1px;
+    border-color:rgba(255, 255, 255, 0.6);
+    z-index:1;
+}
+/*   Heading */
+h1,h2,h3,h4{
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    margin: 0;
+}
+h1{
+font-size: 9.375rem;/*150px;*/
+line-height: 10.743rem;
+}
+h2{
+    font-size: 6.25rem;
+    line-height: 7.16rem;
+}
+h3{
+    font-size: 3.5rem;
+    line-height: 4rem;
+}
+h4
+{
+    font-size: 2rem;
+    line-height: 2.3125rem;
+}
+h5{
+    font-family: 'Barlow Condensed', sans-serif;
+font-size: 1.75rem;
+font-weight: 400;
+line-height: 2.125rem;
+letter-spacing: 0.3rem;
+margin: 0;
+}
+
+.subheading2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 0;
+}
